@@ -1,8 +1,9 @@
 {
-  "format_version": 2,
-  "description": "Tiny ExLPose demonstration subset. Each LL-N/H/E image is stored with its own true paired WL image.",
+  "format_version": 3,
+  "description": "Tiny ExLPose demonstration subset. Each LL-N/H/E image is stored with its own true paired WL image. All outputs are resized lossless PNGs under the configured byte cap.",
   "source_root_note": "/Users/r/datasets/exlpose",
   "seed": 17,
+  "target_kb": 750,
   "num_scene_groups": 10,
   "scene_groups": [
     {
@@ -13,19 +14,49 @@
           "wl": "images/exlpose/scene_01/WL_N.png",
           "ll": "images/exlpose/scene_01/LL_N.png",
           "source_wl": "imgs_0212_bulguksa_vid000016_exp100_bright_000052__gain_8.20_exposure_5000.png",
-          "source_ll": "imgs_0212_bulguksa_vid000016_exp100_dark_000052__gain_8.20_exposure_5000.png"
+          "source_ll": "imgs_0212_bulguksa_vid000016_exp100_dark_000052__gain_8.20_exposure_5000.png",
+          "wl_output_size": [
+            868,
+            542
+          ],
+          "ll_output_size": [
+            868,
+            542
+          ],
+          "wl_bytes": 749908,
+          "ll_bytes": 636993
         },
         "H": {
           "wl": "images/exlpose/scene_01/WL_H.png",
           "ll": "images/exlpose/scene_01/LL_H.png",
           "source_wl": "imgs_0212_bulguksa_vid000016_exp400_bright_000052__gain_20.24_exposure_1250.png",
-          "source_ll": "imgs_0212_bulguksa_vid000016_exp400_dark_000052__gain_8.20_exposure_1250.png"
+          "source_ll": "imgs_0212_bulguksa_vid000016_exp400_dark_000052__gain_8.20_exposure_1250.png",
+          "wl_output_size": [
+            807,
+            504
+          ],
+          "ll_output_size": [
+            807,
+            504
+          ],
+          "wl_bytes": 747062,
+          "ll_bytes": 350554
         },
         "E": {
           "wl": "images/exlpose/scene_01/WL_E.png",
           "ll": "images/exlpose/scene_01/LL_E.png",
           "source_wl": "imgs_0212_bulguksa_vid000016_exp1200_bright_000052__gain_29.78_exposure_417.png",
-          "source_ll": "imgs_0212_bulguksa_vid000016_exp1200_dark_000052__gain_8.20_exposure_417.png"
+          "source_ll": "imgs_0212_bulguksa_vid000016_exp1200_dark_000052__gain_8.20_exposure_417.png",
+          "wl_output_size": [
+            747,
+            467
+          ],
+          "ll_output_size": [
+            747,
+            467
+          ],
+          "wl_bytes": 746515,
+          "ll_bytes": 160692
         }
       }
     },
@@ -37,19 +68,49 @@
           "wl": "images/exlpose/scene_02/WL_N.png",
           "ll": "images/exlpose/scene_02/LL_N.png",
           "source_wl": "imgs_0206_vid000012_exp200_bright_000092__gain_10.12_exposure_2500.png",
-          "source_ll": "imgs_0206_vid000012_exp200_dark_000092__gain_4.10_exposure_2500.png"
+          "source_ll": "imgs_0206_vid000012_exp200_dark_000092__gain_4.10_exposure_2500.png",
+          "wl_output_size": [
+            831,
+            518
+          ],
+          "ll_output_size": [
+            831,
+            518
+          ],
+          "wl_bytes": 749433,
+          "ll_bytes": 334162
         },
         "H": {
           "wl": "images/exlpose/scene_02/WL_H.png",
           "ll": "images/exlpose/scene_02/LL_H.png",
           "source_wl": "imgs_0206_vid000012_exp800_bright_000002__gain_22.16_exposure_625.png",
-          "source_ll": "imgs_0206_vid000012_exp800_dark_000002__gain_4.10_exposure_625.png"
+          "source_ll": "imgs_0206_vid000012_exp800_dark_000002__gain_4.10_exposure_625.png",
+          "wl_output_size": [
+            770,
+            480
+          ],
+          "ll_output_size": [
+            770,
+            480
+          ],
+          "wl_bytes": 749075,
+          "ll_bytes": 153324
         },
         "E": {
           "wl": "images/exlpose/scene_02/WL_E.png",
           "ll": "images/exlpose/scene_02/LL_E.png",
           "source_wl": "imgs_0206_vid000012_exp1200_bright_000092__gain_25.68_exposure_417.png",
-          "source_ll": "imgs_0206_vid000012_exp1200_dark_000092__gain_4.10_exposure_417.png"
+          "source_ll": "imgs_0206_vid000012_exp1200_dark_000092__gain_4.10_exposure_417.png",
+          "wl_output_size": [
+            755,
+            471
+          ],
+          "ll_output_size": [
+            755,
+            471
+          ],
+          "wl_bytes": 744414,
+          "ll_bytes": 104371
         }
       }
     },
@@ -61,19 +122,49 @@
           "wl": "images/exlpose/scene_03/WL_N.png",
           "ll": "images/exlpose/scene_03/LL_N.png",
           "source_wl": "imgs_0205_vid000006_exp100_bright_000082__gain_3.90_exposure_5000.png",
-          "source_ll": "imgs_0205_vid000006_exp100_dark_000082__gain_3.90_exposure_5000.png"
+          "source_ll": "imgs_0205_vid000006_exp100_dark_000082__gain_3.90_exposure_5000.png",
+          "wl_output_size": [
+            839,
+            523
+          ],
+          "ll_output_size": [
+            839,
+            523
+          ],
+          "wl_bytes": 748355,
+          "ll_bytes": 447534
         },
         "H": {
           "wl": "images/exlpose/scene_03/WL_H.png",
           "ll": "images/exlpose/scene_03/LL_H.png",
           "source_wl": "imgs_0205_vid000006_exp400_bright_000002__gain_15.94_exposure_1250.png",
-          "source_ll": "imgs_0205_vid000006_exp400_dark_000002__gain_3.90_exposure_1250.png"
+          "source_ll": "imgs_0205_vid000006_exp400_dark_000002__gain_3.90_exposure_1250.png",
+          "wl_output_size": [
+            798,
+            498
+          ],
+          "ll_output_size": [
+            798,
+            498
+          ],
+          "wl_bytes": 748871,
+          "ll_bytes": 181957
         },
         "E": {
           "wl": "images/exlpose/scene_03/WL_E.png",
           "ll": "images/exlpose/scene_03/LL_E.png",
           "source_wl": "imgs_0205_vid000006_exp1600_bright_000052__gain_27.98_exposure_313.png",
-          "source_ll": "imgs_0205_vid000006_exp1600_dark_000052__gain_3.90_exposure_313.png"
+          "source_ll": "imgs_0205_vid000006_exp1600_dark_000052__gain_3.90_exposure_313.png",
+          "wl_output_size": [
+            748,
+            466
+          ],
+          "ll_output_size": [
+            748,
+            466
+          ],
+          "wl_bytes": 746193,
+          "ll_bytes": 55633
         }
       }
     },
@@ -85,19 +176,49 @@
           "wl": "images/exlpose/scene_04/WL_N.png",
           "ll": "images/exlpose/scene_04/LL_N.png",
           "source_wl": "imgs_0206_vid000010_exp100_bright_000092__gain_7.60_exposure_5000.png",
-          "source_ll": "imgs_0206_vid000010_exp100_dark_000092__gain_7.60_exposure_5000.png"
+          "source_ll": "imgs_0206_vid000010_exp100_dark_000092__gain_7.60_exposure_5000.png",
+          "wl_output_size": [
+            855,
+            534
+          ],
+          "ll_output_size": [
+            855,
+            534
+          ],
+          "wl_bytes": 749841,
+          "ll_bytes": 573297
         },
         "H": {
           "wl": "images/exlpose/scene_04/WL_H.png",
           "ll": "images/exlpose/scene_04/LL_H.png",
           "source_wl": "imgs_0206_vid000010_exp400_bright_000092__gain_19.64_exposure_1250.png",
-          "source_ll": "imgs_0206_vid000010_exp400_dark_000092__gain_7.60_exposure_1250.png"
+          "source_ll": "imgs_0206_vid000010_exp400_dark_000092__gain_7.60_exposure_1250.png",
+          "wl_output_size": [
+            795,
+            496
+          ],
+          "ll_output_size": [
+            795,
+            496
+          ],
+          "wl_bytes": 749420,
+          "ll_bytes": 360652
         },
         "E": {
           "wl": "images/exlpose/scene_04/WL_E.png",
           "ll": "images/exlpose/scene_04/LL_E.png",
           "source_wl": "imgs_0206_vid000010_exp1200_bright_000002__gain_29.18_exposure_417.png",
-          "source_ll": "imgs_0206_vid000010_exp1200_dark_000002__gain_7.60_exposure_417.png"
+          "source_ll": "imgs_0206_vid000010_exp1200_dark_000002__gain_7.60_exposure_417.png",
+          "wl_output_size": [
+            756,
+            471
+          ],
+          "ll_output_size": [
+            756,
+            471
+          ],
+          "wl_bytes": 745849,
+          "ll_bytes": 246703
         }
       }
     },
@@ -109,19 +230,49 @@
           "wl": "images/exlpose/scene_05/WL_N.png",
           "ll": "images/exlpose/scene_05/LL_N.png",
           "source_wl": "imgs_0209_vid000019_exp200_bright_000052__gain_10.22_exposure_2000.png",
-          "source_ll": "imgs_0209_vid000019_exp200_dark_000052__gain_4.20_exposure_2000.png"
+          "source_ll": "imgs_0209_vid000019_exp200_dark_000052__gain_4.20_exposure_2000.png",
+          "wl_output_size": [
+            871,
+            544
+          ],
+          "ll_output_size": [
+            871,
+            544
+          ],
+          "wl_bytes": 748946,
+          "ll_bytes": 447791
         },
         "H": {
           "wl": "images/exlpose/scene_05/WL_H.png",
           "ll": "images/exlpose/scene_05/LL_H.png",
           "source_wl": "imgs_0209_vid000019_exp400_bright_000052__gain_16.24_exposure_1000.png",
-          "source_ll": "imgs_0209_vid000019_exp400_dark_000052__gain_4.20_exposure_1000.png"
+          "source_ll": "imgs_0209_vid000019_exp400_dark_000052__gain_4.20_exposure_1000.png",
+          "wl_output_size": [
+            841,
+            525
+          ],
+          "ll_output_size": [
+            841,
+            525
+          ],
+          "wl_bytes": 745762,
+          "ll_bytes": 243122
         },
         "E": {
           "wl": "images/exlpose/scene_05/WL_E.png",
           "ll": "images/exlpose/scene_05/LL_E.png",
           "source_wl": "imgs_0209_vid000019_exp1200_bright_000052__gain_25.78_exposure_333.png",
-          "source_ll": "imgs_0209_vid000019_exp1200_dark_000052__gain_4.20_exposure_333.png"
+          "source_ll": "imgs_0209_vid000019_exp1200_dark_000052__gain_4.20_exposure_333.png",
+          "wl_output_size": [
+            787,
+            492
+          ],
+          "ll_output_size": [
+            787,
+            492
+          ],
+          "wl_bytes": 748507,
+          "ll_bytes": 58042
         }
       }
     },
@@ -133,19 +284,49 @@
           "wl": "images/exlpose/scene_06/WL_N.png",
           "ll": "images/exlpose/scene_06/LL_N.png",
           "source_wl": "imgs_0208_vid000031_exp200_bright_000052__gain_13.42_exposure_2000.png",
-          "source_ll": "imgs_0208_vid000031_exp200_dark_000052__gain_7.40_exposure_2000.png"
+          "source_ll": "imgs_0208_vid000031_exp200_dark_000052__gain_7.40_exposure_2000.png",
+          "wl_output_size": [
+            825,
+            516
+          ],
+          "ll_output_size": [
+            825,
+            516
+          ],
+          "wl_bytes": 749990,
+          "ll_bytes": 403308
         },
         "H": {
           "wl": "images/exlpose/scene_06/WL_H.png",
           "ll": "images/exlpose/scene_06/LL_H.png",
           "source_wl": "imgs_0208_vid000031_exp400_bright_000052__gain_19.44_exposure_1000.png",
-          "source_ll": "imgs_0208_vid000031_exp400_dark_000052__gain_7.40_exposure_1000.png"
+          "source_ll": "imgs_0208_vid000031_exp400_dark_000052__gain_7.40_exposure_1000.png",
+          "wl_output_size": [
+            791,
+            494
+          ],
+          "ll_output_size": [
+            791,
+            494
+          ],
+          "wl_bytes": 748024,
+          "ll_bytes": 268536
         },
         "E": {
           "wl": "images/exlpose/scene_06/WL_E.png",
           "ll": "images/exlpose/scene_06/LL_E.png",
           "source_wl": "imgs_0208_vid000031_exp800_bright_000052__gain_25.46_exposure_500.png",
-          "source_ll": "imgs_0208_vid000031_exp800_dark_000052__gain_7.40_exposure_500.png"
+          "source_ll": "imgs_0208_vid000031_exp800_dark_000052__gain_7.40_exposure_500.png",
+          "wl_output_size": [
+            761,
+            476
+          ],
+          "ll_output_size": [
+            761,
+            476
+          ],
+          "wl_bytes": 749026,
+          "ll_bytes": 149178
         }
       }
     },
@@ -157,19 +338,49 @@
           "wl": "images/exlpose/scene_07/WL_N.png",
           "ll": "images/exlpose/scene_07/LL_N.png",
           "source_wl": "imgs_0212_bulguksa_vid000011_exp100_bright_000052__gain_11.60_exposure_5000.png",
-          "source_ll": "imgs_0212_bulguksa_vid000011_exp100_dark_000052__gain_11.60_exposure_5000.png"
+          "source_ll": "imgs_0212_bulguksa_vid000011_exp100_dark_000052__gain_11.60_exposure_5000.png",
+          "wl_output_size": [
+            832,
+            520
+          ],
+          "ll_output_size": [
+            832,
+            520
+          ],
+          "wl_bytes": 748741,
+          "ll_bytes": 586881
         },
         "H": {
           "wl": "images/exlpose/scene_07/WL_H.png",
           "ll": "images/exlpose/scene_07/LL_H.png",
           "source_wl": "imgs_0212_bulguksa_vid000011_exp200_bright_000052__gain_17.62_exposure_2500.png",
-          "source_ll": "imgs_0212_bulguksa_vid000011_exp200_dark_000052__gain_11.60_exposure_2500.png"
+          "source_ll": "imgs_0212_bulguksa_vid000011_exp200_dark_000052__gain_11.60_exposure_2500.png",
+          "wl_output_size": [
+            803,
+            502
+          ],
+          "ll_output_size": [
+            803,
+            502
+          ],
+          "wl_bytes": 748815,
+          "ll_bytes": 472863
         },
         "E": {
           "wl": "images/exlpose/scene_07/WL_E.png",
           "ll": "images/exlpose/scene_07/LL_E.png",
           "source_wl": "imgs_0212_bulguksa_vid000011_exp1200_bright_000052__gain_33.18_exposure_417.png",
-          "source_ll": "imgs_0212_bulguksa_vid000011_exp1200_dark_000052__gain_11.60_exposure_417.png"
+          "source_ll": "imgs_0212_bulguksa_vid000011_exp1200_dark_000052__gain_11.60_exposure_417.png",
+          "wl_output_size": [
+            729,
+            455
+          ],
+          "ll_output_size": [
+            729,
+            455
+          ],
+          "wl_bytes": 747089,
+          "ll_bytes": 245504
         }
       }
     },
@@ -181,19 +392,49 @@
           "wl": "images/exlpose/scene_08/WL_N.png",
           "ll": "images/exlpose/scene_08/LL_N.png",
           "source_wl": "imgs_0212_bulguksa_vid000032_exp100_bright_000052__gain_8.10_exposure_5000.png",
-          "source_ll": "imgs_0212_bulguksa_vid000032_exp100_dark_000052__gain_8.10_exposure_5000.png"
+          "source_ll": "imgs_0212_bulguksa_vid000032_exp100_dark_000052__gain_8.10_exposure_5000.png",
+          "wl_output_size": [
+            868,
+            542
+          ],
+          "ll_output_size": [
+            868,
+            542
+          ],
+          "wl_bytes": 749242,
+          "ll_bytes": 565825
         },
         "H": {
           "wl": "images/exlpose/scene_08/WL_H.png",
           "ll": "images/exlpose/scene_08/LL_H.png",
           "source_wl": "imgs_0212_bulguksa_vid000032_exp400_bright_000052__gain_20.14_exposure_1250.png",
-          "source_ll": "imgs_0212_bulguksa_vid000032_exp400_dark_000052__gain_8.10_exposure_1250.png"
+          "source_ll": "imgs_0212_bulguksa_vid000032_exp400_dark_000052__gain_8.10_exposure_1250.png",
+          "wl_output_size": [
+            803,
+            501
+          ],
+          "ll_output_size": [
+            803,
+            501
+          ],
+          "wl_bytes": 749853,
+          "ll_bytes": 252559
         },
         "E": {
           "wl": "images/exlpose/scene_08/WL_E.png",
           "ll": "images/exlpose/scene_08/LL_E.png",
           "source_wl": "imgs_0212_bulguksa_vid000032_exp1200_bright_000052__gain_29.68_exposure_417.png",
-          "source_ll": "imgs_0212_bulguksa_vid000032_exp1200_dark_000052__gain_8.10_exposure_417.png"
+          "source_ll": "imgs_0212_bulguksa_vid000032_exp1200_dark_000052__gain_8.10_exposure_417.png",
+          "wl_output_size": [
+            760,
+            475
+          ],
+          "ll_output_size": [
+            760,
+            475
+          ],
+          "wl_bytes": 748793,
+          "ll_bytes": 158519
         }
       }
     },
@@ -205,19 +446,49 @@
           "wl": "images/exlpose/scene_09/WL_N.png",
           "ll": "images/exlpose/scene_09/LL_N.png",
           "source_wl": "imgs_0206_vid000024_exp200_bright_000052__gain_9.62_exposure_2500.png",
-          "source_ll": "imgs_0206_vid000024_exp200_dark_000052__gain_3.60_exposure_2500.png"
+          "source_ll": "imgs_0206_vid000024_exp200_dark_000052__gain_3.60_exposure_2500.png",
+          "wl_output_size": [
+            844,
+            527
+          ],
+          "ll_output_size": [
+            844,
+            527
+          ],
+          "wl_bytes": 749624,
+          "ll_bytes": 332171
         },
         "H": {
           "wl": "images/exlpose/scene_09/WL_H.png",
           "ll": "images/exlpose/scene_09/LL_H.png",
           "source_wl": "imgs_0206_vid000024_exp400_bright_000052__gain_15.64_exposure_1250.png",
-          "source_ll": "imgs_0206_vid000024_exp400_dark_000052__gain_3.60_exposure_1250.png"
+          "source_ll": "imgs_0206_vid000024_exp400_dark_000052__gain_3.60_exposure_1250.png",
+          "wl_output_size": [
+            819,
+            511
+          ],
+          "ll_output_size": [
+            819,
+            511
+          ],
+          "wl_bytes": 747342,
+          "ll_bytes": 200824
         },
         "E": {
           "wl": "images/exlpose/scene_09/WL_E.png",
           "ll": "images/exlpose/scene_09/LL_E.png",
           "source_wl": "imgs_0206_vid000024_exp1200_bright_000052__gain_25.18_exposure_417.png",
-          "source_ll": "imgs_0206_vid000024_exp1200_dark_000052__gain_3.60_exposure_417.png"
+          "source_ll": "imgs_0206_vid000024_exp1200_dark_000052__gain_3.60_exposure_417.png",
+          "wl_output_size": [
+            773,
+            482
+          ],
+          "ll_output_size": [
+            773,
+            482
+          ],
+          "wl_bytes": 748475,
+          "ll_bytes": 78679
         }
       }
     },
@@ -229,19 +500,49 @@
           "wl": "images/exlpose/scene_10/WL_N.png",
           "ll": "images/exlpose/scene_10/LL_N.png",
           "source_wl": "imgs_0208_vid000026_exp100_bright_000052__gain_5.40_exposure_4000.png",
-          "source_ll": "imgs_0208_vid000026_exp100_dark_000052__gain_5.40_exposure_4000.png"
+          "source_ll": "imgs_0208_vid000026_exp100_dark_000052__gain_5.40_exposure_4000.png",
+          "wl_output_size": [
+            870,
+            543
+          ],
+          "ll_output_size": [
+            870,
+            543
+          ],
+          "wl_bytes": 749645,
+          "ll_bytes": 589445
         },
         "H": {
           "wl": "images/exlpose/scene_10/WL_H.png",
           "ll": "images/exlpose/scene_10/LL_H.png",
           "source_wl": "imgs_0208_vid000026_exp800_bright_000092__gain_23.46_exposure_500.png",
-          "source_ll": "imgs_0208_vid000026_exp800_dark_000092__gain_5.40_exposure_500.png"
+          "source_ll": "imgs_0208_vid000026_exp800_dark_000092__gain_5.40_exposure_500.png",
+          "wl_output_size": [
+            776,
+            485
+          ],
+          "ll_output_size": [
+            776,
+            485
+          ],
+          "wl_bytes": 747780,
+          "ll_bytes": 257788
         },
         "E": {
           "wl": "images/exlpose/scene_10/WL_E.png",
           "ll": "images/exlpose/scene_10/LL_E.png",
           "source_wl": "imgs_0208_vid000026_exp1200_bright_000092__gain_26.98_exposure_333.png",
-          "source_ll": "imgs_0208_vid000026_exp1200_dark_000092__gain_5.40_exposure_333.png"
+          "source_ll": "imgs_0208_vid000026_exp1200_dark_000092__gain_5.40_exposure_333.png",
+          "wl_output_size": [
+            758,
+            474
+          ],
+          "ll_output_size": [
+            758,
+            474
+          ],
+          "wl_bytes": 745363,
+          "ll_bytes": 190780
         }
       }
     }
@@ -249,46 +550,96 @@
   "ocn": {
     "A7M3": [
       {
-        "path": "images/ocn/A7M3/01.jpg",
-        "source": "0829_DSC07969.JPG"
+        "path": "images/ocn/A7M3/01.png",
+        "source": "0829_DSC07969.JPG",
+        "output_size": [
+          1007,
+          671
+        ],
+        "bytes": 735638
       },
       {
-        "path": "images/ocn/A7M3/02.jpg",
-        "source": "0827_DSC07937.JPG"
+        "path": "images/ocn/A7M3/02.png",
+        "source": "0827_DSC07937.JPG",
+        "output_size": [
+          1028,
+          686
+        ],
+        "bytes": 739452
       },
       {
-        "path": "images/ocn/A7M3/03.jpg",
-        "source": "0829_DSC07966.JPG"
+        "path": "images/ocn/A7M3/03.png",
+        "source": "0829_DSC07966.JPG",
+        "output_size": [
+          1047,
+          698
+        ],
+        "bytes": 734828
       },
       {
-        "path": "images/ocn/A7M3/04.jpg",
-        "source": "0822_DSC07189.JPG"
+        "path": "images/ocn/A7M3/04.png",
+        "source": "0822_DSC07189.JPG",
+        "output_size": [
+          1088,
+          725
+        ],
+        "bytes": 745173
       },
       {
-        "path": "images/ocn/A7M3/05.jpg",
-        "source": "0825_DSC07397.JPG"
+        "path": "images/ocn/A7M3/05.png",
+        "source": "0825_DSC07397.JPG",
+        "output_size": [
+          1044,
+          696
+        ],
+        "bytes": 749528
       }
     ],
     "RICOH3": [
       {
-        "path": "images/ocn/RICOH3/01.jpg",
-        "source": "0829_R0000632.JPG"
+        "path": "images/ocn/RICOH3/01.png",
+        "source": "0829_R0000632.JPG",
+        "output_size": [
+          1160,
+          773
+        ],
+        "bytes": 749323
       },
       {
-        "path": "images/ocn/RICOH3/02.jpg",
-        "source": "0827_R0000237.JPG"
+        "path": "images/ocn/RICOH3/02.png",
+        "source": "0827_R0000237.JPG",
+        "output_size": [
+          1137,
+          758
+        ],
+        "bytes": 749672
       },
       {
-        "path": "images/ocn/RICOH3/03.jpg",
-        "source": "0827_R0000298.JPG"
+        "path": "images/ocn/RICOH3/03.png",
+        "source": "0827_R0000298.JPG",
+        "output_size": [
+          1136,
+          757
+        ],
+        "bytes": 749875
       },
       {
-        "path": "images/ocn/RICOH3/04.jpg",
-        "source": "0827_R0000255.JPG"
+        "path": "images/ocn/RICOH3/04.png",
+        "source": "0827_R0000255.JPG",
+        "output_size": [
+          1073,
+          715
+        ],
+        "bytes": 749541
       },
       {
-        "path": "images/ocn/RICOH3/05.jpg",
-        "source": "0827_R0000011.JPG"
+        "path": "images/ocn/RICOH3/05.png",
+        "source": "0827_R0000011.JPG",
+        "output_size": [
+          1082,
+          721
+        ],
+        "bytes": 749398
       }
     ]
   }

@@ -7,8 +7,11 @@ Small image-only demonstration subset generated from a local ExLPose download.
   and `WL_E ↔ LL_E` pairs.
 - 5 A7M3 ExLPose-OCN images.
 - 5 RICOH3 ExLPose-OCN images.
+- All images are PNG.
+- Maximum configured image size: 750 KB.
+- No JPEG compression.
+- No brightness, contrast, gamma or exposure manipulation.
+- Only spatial downsampling plus lossless PNG compression.
 
-`LL-N`, `LL-H`, and `LL-E` are different ExLPose evaluation difficulty
-subsets, so each LL image is retained with its own actual WL counterpart.
-
-The original source filenames are recorded in `manifest.json`.
+The original source filenames and resulting dimensions are recorded in
+`manifest.json`.
