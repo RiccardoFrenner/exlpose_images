@@ -1,0 +1,295 @@
+{
+  "format_version": 2,
+  "description": "Tiny ExLPose demonstration subset. Each LL-N/H/E image is stored with its own true paired WL image.",
+  "source_root_note": "/Users/r/datasets/exlpose",
+  "seed": 17,
+  "num_scene_groups": 10,
+  "scene_groups": [
+    {
+      "id": "scene_01",
+      "source_scene_key": "imgs_0212_bulguksa_vid000016",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_01/WL_N.png",
+          "ll": "images/exlpose/scene_01/LL_N.png",
+          "source_wl": "imgs_0212_bulguksa_vid000016_exp100_bright_000052__gain_8.20_exposure_5000.png",
+          "source_ll": "imgs_0212_bulguksa_vid000016_exp100_dark_000052__gain_8.20_exposure_5000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_01/WL_H.png",
+          "ll": "images/exlpose/scene_01/LL_H.png",
+          "source_wl": "imgs_0212_bulguksa_vid000016_exp400_bright_000052__gain_20.24_exposure_1250.png",
+          "source_ll": "imgs_0212_bulguksa_vid000016_exp400_dark_000052__gain_8.20_exposure_1250.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_01/WL_E.png",
+          "ll": "images/exlpose/scene_01/LL_E.png",
+          "source_wl": "imgs_0212_bulguksa_vid000016_exp1200_bright_000052__gain_29.78_exposure_417.png",
+          "source_ll": "imgs_0212_bulguksa_vid000016_exp1200_dark_000052__gain_8.20_exposure_417.png"
+        }
+      }
+    },
+    {
+      "id": "scene_02",
+      "source_scene_key": "imgs_0206_vid000012",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_02/WL_N.png",
+          "ll": "images/exlpose/scene_02/LL_N.png",
+          "source_wl": "imgs_0206_vid000012_exp200_bright_000092__gain_10.12_exposure_2500.png",
+          "source_ll": "imgs_0206_vid000012_exp200_dark_000092__gain_4.10_exposure_2500.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_02/WL_H.png",
+          "ll": "images/exlpose/scene_02/LL_H.png",
+          "source_wl": "imgs_0206_vid000012_exp800_bright_000002__gain_22.16_exposure_625.png",
+          "source_ll": "imgs_0206_vid000012_exp800_dark_000002__gain_4.10_exposure_625.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_02/WL_E.png",
+          "ll": "images/exlpose/scene_02/LL_E.png",
+          "source_wl": "imgs_0206_vid000012_exp1200_bright_000092__gain_25.68_exposure_417.png",
+          "source_ll": "imgs_0206_vid000012_exp1200_dark_000092__gain_4.10_exposure_417.png"
+        }
+      }
+    },
+    {
+      "id": "scene_03",
+      "source_scene_key": "imgs_0205_vid000006",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_03/WL_N.png",
+          "ll": "images/exlpose/scene_03/LL_N.png",
+          "source_wl": "imgs_0205_vid000006_exp100_bright_000082__gain_3.90_exposure_5000.png",
+          "source_ll": "imgs_0205_vid000006_exp100_dark_000082__gain_3.90_exposure_5000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_03/WL_H.png",
+          "ll": "images/exlpose/scene_03/LL_H.png",
+          "source_wl": "imgs_0205_vid000006_exp400_bright_000002__gain_15.94_exposure_1250.png",
+          "source_ll": "imgs_0205_vid000006_exp400_dark_000002__gain_3.90_exposure_1250.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_03/WL_E.png",
+          "ll": "images/exlpose/scene_03/LL_E.png",
+          "source_wl": "imgs_0205_vid000006_exp1600_bright_000052__gain_27.98_exposure_313.png",
+          "source_ll": "imgs_0205_vid000006_exp1600_dark_000052__gain_3.90_exposure_313.png"
+        }
+      }
+    },
+    {
+      "id": "scene_04",
+      "source_scene_key": "imgs_0206_vid000010",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_04/WL_N.png",
+          "ll": "images/exlpose/scene_04/LL_N.png",
+          "source_wl": "imgs_0206_vid000010_exp100_bright_000092__gain_7.60_exposure_5000.png",
+          "source_ll": "imgs_0206_vid000010_exp100_dark_000092__gain_7.60_exposure_5000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_04/WL_H.png",
+          "ll": "images/exlpose/scene_04/LL_H.png",
+          "source_wl": "imgs_0206_vid000010_exp400_bright_000092__gain_19.64_exposure_1250.png",
+          "source_ll": "imgs_0206_vid000010_exp400_dark_000092__gain_7.60_exposure_1250.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_04/WL_E.png",
+          "ll": "images/exlpose/scene_04/LL_E.png",
+          "source_wl": "imgs_0206_vid000010_exp1200_bright_000002__gain_29.18_exposure_417.png",
+          "source_ll": "imgs_0206_vid000010_exp1200_dark_000002__gain_7.60_exposure_417.png"
+        }
+      }
+    },
+    {
+      "id": "scene_05",
+      "source_scene_key": "imgs_0209_vid000019",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_05/WL_N.png",
+          "ll": "images/exlpose/scene_05/LL_N.png",
+          "source_wl": "imgs_0209_vid000019_exp200_bright_000052__gain_10.22_exposure_2000.png",
+          "source_ll": "imgs_0209_vid000019_exp200_dark_000052__gain_4.20_exposure_2000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_05/WL_H.png",
+          "ll": "images/exlpose/scene_05/LL_H.png",
+          "source_wl": "imgs_0209_vid000019_exp400_bright_000052__gain_16.24_exposure_1000.png",
+          "source_ll": "imgs_0209_vid000019_exp400_dark_000052__gain_4.20_exposure_1000.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_05/WL_E.png",
+          "ll": "images/exlpose/scene_05/LL_E.png",
+          "source_wl": "imgs_0209_vid000019_exp1200_bright_000052__gain_25.78_exposure_333.png",
+          "source_ll": "imgs_0209_vid000019_exp1200_dark_000052__gain_4.20_exposure_333.png"
+        }
+      }
+    },
+    {
+      "id": "scene_06",
+      "source_scene_key": "imgs_0208_vid000031",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_06/WL_N.png",
+          "ll": "images/exlpose/scene_06/LL_N.png",
+          "source_wl": "imgs_0208_vid000031_exp200_bright_000052__gain_13.42_exposure_2000.png",
+          "source_ll": "imgs_0208_vid000031_exp200_dark_000052__gain_7.40_exposure_2000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_06/WL_H.png",
+          "ll": "images/exlpose/scene_06/LL_H.png",
+          "source_wl": "imgs_0208_vid000031_exp400_bright_000052__gain_19.44_exposure_1000.png",
+          "source_ll": "imgs_0208_vid000031_exp400_dark_000052__gain_7.40_exposure_1000.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_06/WL_E.png",
+          "ll": "images/exlpose/scene_06/LL_E.png",
+          "source_wl": "imgs_0208_vid000031_exp800_bright_000052__gain_25.46_exposure_500.png",
+          "source_ll": "imgs_0208_vid000031_exp800_dark_000052__gain_7.40_exposure_500.png"
+        }
+      }
+    },
+    {
+      "id": "scene_07",
+      "source_scene_key": "imgs_0212_bulguksa_vid000011",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_07/WL_N.png",
+          "ll": "images/exlpose/scene_07/LL_N.png",
+          "source_wl": "imgs_0212_bulguksa_vid000011_exp100_bright_000052__gain_11.60_exposure_5000.png",
+          "source_ll": "imgs_0212_bulguksa_vid000011_exp100_dark_000052__gain_11.60_exposure_5000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_07/WL_H.png",
+          "ll": "images/exlpose/scene_07/LL_H.png",
+          "source_wl": "imgs_0212_bulguksa_vid000011_exp200_bright_000052__gain_17.62_exposure_2500.png",
+          "source_ll": "imgs_0212_bulguksa_vid000011_exp200_dark_000052__gain_11.60_exposure_2500.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_07/WL_E.png",
+          "ll": "images/exlpose/scene_07/LL_E.png",
+          "source_wl": "imgs_0212_bulguksa_vid000011_exp1200_bright_000052__gain_33.18_exposure_417.png",
+          "source_ll": "imgs_0212_bulguksa_vid000011_exp1200_dark_000052__gain_11.60_exposure_417.png"
+        }
+      }
+    },
+    {
+      "id": "scene_08",
+      "source_scene_key": "imgs_0212_bulguksa_vid000032",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_08/WL_N.png",
+          "ll": "images/exlpose/scene_08/LL_N.png",
+          "source_wl": "imgs_0212_bulguksa_vid000032_exp100_bright_000052__gain_8.10_exposure_5000.png",
+          "source_ll": "imgs_0212_bulguksa_vid000032_exp100_dark_000052__gain_8.10_exposure_5000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_08/WL_H.png",
+          "ll": "images/exlpose/scene_08/LL_H.png",
+          "source_wl": "imgs_0212_bulguksa_vid000032_exp400_bright_000052__gain_20.14_exposure_1250.png",
+          "source_ll": "imgs_0212_bulguksa_vid000032_exp400_dark_000052__gain_8.10_exposure_1250.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_08/WL_E.png",
+          "ll": "images/exlpose/scene_08/LL_E.png",
+          "source_wl": "imgs_0212_bulguksa_vid000032_exp1200_bright_000052__gain_29.68_exposure_417.png",
+          "source_ll": "imgs_0212_bulguksa_vid000032_exp1200_dark_000052__gain_8.10_exposure_417.png"
+        }
+      }
+    },
+    {
+      "id": "scene_09",
+      "source_scene_key": "imgs_0206_vid000024",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_09/WL_N.png",
+          "ll": "images/exlpose/scene_09/LL_N.png",
+          "source_wl": "imgs_0206_vid000024_exp200_bright_000052__gain_9.62_exposure_2500.png",
+          "source_ll": "imgs_0206_vid000024_exp200_dark_000052__gain_3.60_exposure_2500.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_09/WL_H.png",
+          "ll": "images/exlpose/scene_09/LL_H.png",
+          "source_wl": "imgs_0206_vid000024_exp400_bright_000052__gain_15.64_exposure_1250.png",
+          "source_ll": "imgs_0206_vid000024_exp400_dark_000052__gain_3.60_exposure_1250.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_09/WL_E.png",
+          "ll": "images/exlpose/scene_09/LL_E.png",
+          "source_wl": "imgs_0206_vid000024_exp1200_bright_000052__gain_25.18_exposure_417.png",
+          "source_ll": "imgs_0206_vid000024_exp1200_dark_000052__gain_3.60_exposure_417.png"
+        }
+      }
+    },
+    {
+      "id": "scene_10",
+      "source_scene_key": "imgs_0208_vid000026",
+      "pairs": {
+        "N": {
+          "wl": "images/exlpose/scene_10/WL_N.png",
+          "ll": "images/exlpose/scene_10/LL_N.png",
+          "source_wl": "imgs_0208_vid000026_exp100_bright_000052__gain_5.40_exposure_4000.png",
+          "source_ll": "imgs_0208_vid000026_exp100_dark_000052__gain_5.40_exposure_4000.png"
+        },
+        "H": {
+          "wl": "images/exlpose/scene_10/WL_H.png",
+          "ll": "images/exlpose/scene_10/LL_H.png",
+          "source_wl": "imgs_0208_vid000026_exp800_bright_000092__gain_23.46_exposure_500.png",
+          "source_ll": "imgs_0208_vid000026_exp800_dark_000092__gain_5.40_exposure_500.png"
+        },
+        "E": {
+          "wl": "images/exlpose/scene_10/WL_E.png",
+          "ll": "images/exlpose/scene_10/LL_E.png",
+          "source_wl": "imgs_0208_vid000026_exp1200_bright_000092__gain_26.98_exposure_333.png",
+          "source_ll": "imgs_0208_vid000026_exp1200_dark_000092__gain_5.40_exposure_333.png"
+        }
+      }
+    }
+  ],
+  "ocn": {
+    "A7M3": [
+      {
+        "path": "images/ocn/A7M3/01.jpg",
+        "source": "0829_DSC07969.JPG"
+      },
+      {
+        "path": "images/ocn/A7M3/02.jpg",
+        "source": "0827_DSC07937.JPG"
+      },
+      {
+        "path": "images/ocn/A7M3/03.jpg",
+        "source": "0829_DSC07966.JPG"
+      },
+      {
+        "path": "images/ocn/A7M3/04.jpg",
+        "source": "0822_DSC07189.JPG"
+      },
+      {
+        "path": "images/ocn/A7M3/05.jpg",
+        "source": "0825_DSC07397.JPG"
+      }
+    ],
+    "RICOH3": [
+      {
+        "path": "images/ocn/RICOH3/01.jpg",
+        "source": "0829_R0000632.JPG"
+      },
+      {
+        "path": "images/ocn/RICOH3/02.jpg",
+        "source": "0827_R0000237.JPG"
+      },
+      {
+        "path": "images/ocn/RICOH3/03.jpg",
+        "source": "0827_R0000298.JPG"
+      },
+      {
+        "path": "images/ocn/RICOH3/04.jpg",
+        "source": "0827_R0000255.JPG"
+      },
+      {
+        "path": "images/ocn/RICOH3/05.jpg",
+        "source": "0827_R0000011.JPG"
+      }
+    ]
+  }
+}
